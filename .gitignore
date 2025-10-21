@@ -1,0 +1,21 @@
+# Ignore runtime logs and data
+log/
+logs/
+*.log
+*.jsonl
+
+# OS/editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Secrets/keys
+*.pem
+*.key
+.env
+aws_credentials
+
+# Python
+__pycache__/
+*.pyc
